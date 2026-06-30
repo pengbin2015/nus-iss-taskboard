@@ -1,5 +1,5 @@
 <!-- This file is read automatically by GitHub Copilot in VS Code.
-     It mirrors AGENTS.md at the repo root. Keep both in sync. -->
+     It is a condensed summary of AGENTS.md. Keep both consistent. -->
 
 # TaskBoard API — Copilot Instructions
 
@@ -14,6 +14,7 @@
 ## Conventions
 - Functional handlers (no classes)
 - Errors: `res.status(N).json({ error: "..." })`
+- IDs: always use `uuidv4()` from the `uuid` package
 - Tests: call `store.reset()` in `beforeEach()`
 - Conventional Commits
 
