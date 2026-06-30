@@ -33,10 +33,14 @@ Describe the feature, bug fix, or refactoring goal.
 
 - 
 
-## How to test
+## Commands to run next time
 
 ```bash
 pnpm test
 pnpm lint
 pnpm build
 ```
+
+## Recommended next Copilot prompt
+
+

@@ -1,7 +1,7 @@
 ---
 description: "Create or update a handoff note for continuing work later."
 agent: agent
-tools: ["edit"]
+tools: ["read", "edit"]
 ---
 
 Update `docs/handoff/current-work.md` as a handoff note for a future Copilot session.
