@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { Task, CreateTaskBody, UpdateTaskBody } from "../types/task";
+import { Task, CreateTaskBody, UpdateTaskBody } from "./types/task";
 
 // Simple in-memory store — no database needed for labs.
 // State lives here; tests import `store` directly to reset between runs.

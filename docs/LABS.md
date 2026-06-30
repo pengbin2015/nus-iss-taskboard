@@ -8,7 +8,7 @@ Each lab maps to a module in the slides.
 ## Setup (do this first — 5 min)
 
 ```bash
-git clone https://github.com/NUS-ISS-SS/nus-iss-taskboard
+git clone https://github.com/pengbin2015/nus-iss-taskboard
 cd nus-iss-taskboard
 pnpm install
 pnpm dev          # server at http://localhost:3000

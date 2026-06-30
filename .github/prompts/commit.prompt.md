@@ -1,7 +1,7 @@
 ---
 description: "Write a Conventional Commits message for staged changes"
 agent: agent
-tools: ["search"]
+tools: ["search/changes"]
 ---
 Inspect the staged diff (#changes) and write a Conventional Commits message.
 

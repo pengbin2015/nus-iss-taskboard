@@ -8,7 +8,7 @@ The codebase is intentionally small enough to understand in 5 minutes, structure
 ## Quick start
 
 ```bash
-git clone https://github.com/NUS-ISS-SS/nus-iss-taskboard
+git clone https://github.com/pengbin2015/nus-iss-taskboard
 cd nus-iss-taskboard
 pnpm install
 pnpm dev        # http://localhost:3000
@@ -50,7 +50,10 @@ Step-by-step labs for each module → [`docs/LABS.md`](docs/LABS.md)
 | `.github/instructions/tests.instructions.md` | Scoped rules for test files |
 | `.github/prompts/commit.prompt.md` | `/commit` slash command |
 | `.github/prompts/review.prompt.md` | `/review` slash command |
+| `.github/prompts/save-handoff.prompt.md` | `/save-handoff` slash command |
+| `.github/prompts/resume-handoff.prompt.md` | `/resume-handoff` slash command |
 | `.github/agents/security-reviewer.agent.md` | Read-only security reviewer |
+| `.github/skills/webapp-testing/SKILL.md` | Playwright workflow skill |
 
 ## Course context
 

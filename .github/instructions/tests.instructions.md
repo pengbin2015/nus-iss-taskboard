@@ -1,5 +1,5 @@
 ---
-applyTo: "tests/**/*.ts"
+applyTo: "**/*.test.ts"
 ---
 - Always import `store` from `../src/store` and call `store.reset()` in `beforeEach()`.
 - Use `describe` blocks that mirror the route they test: `describe("GET /tasks/:id", ...)`.

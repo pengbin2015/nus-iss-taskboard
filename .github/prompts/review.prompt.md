@@ -1,7 +1,7 @@
 ---
 description: "Code-review the staged or selected changes"
 agent: agent
-tools: ["search"]
+tools: ["search/changes"]
 ---
 Review the staged diff (#changes) as a senior TypeScript engineer.
 
